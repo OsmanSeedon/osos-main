@@ -1,0 +1,35 @@
+export const siteConfig = {
+  name: "OSOS",
+  nameAr: "أسس السلامة",
+  description: "Fire Fighting & Fire Alarm Systems - Professional fire safety solutions, installation, and maintenance services",
+  descriptionAr: "أنظمة مكافحة الحريق وإنذار الحريق - حلول السلامة من الحريق والتركيب والصيانة",
+  url: "https://osos.sd",
+  ogImage: "https://osos.sd/og.png",
+  links: {
+    github: "https://github.com/abdout/osos",
+  },
+  creator: "Osman Abdout",
+  keywords: [
+    "fire fighting",
+    "fire alarm",
+    "fire safety",
+    "fire protection",
+    "fire suppression",
+    "fire extinguisher",
+    "sprinkler system",
+    "smoke detector",
+    "Sudan",
+    "Khartoum",
+    "أسس السلامة",
+    "مكافحة الحريق",
+    "إنذار الحريق",
+    "السلامة من الحريق",
+    "طفايات الحريق",
+    "أنظمة الرش",
+    "كاشف الدخان",
+    "السودان",
+    "الخرطوم",
+  ],
+} as const
+
+export type SiteConfig = typeof siteConfig

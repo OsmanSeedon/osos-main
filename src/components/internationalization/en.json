@@ -1,0 +1,624 @@
+{
+  "common": {
+    "appName": "USUS ALSALAMAH",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "filter": "Filter",
+    "loading": "Loading...",
+    "noResults": "No results found",
+    "actions": "Actions",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "none": "None",
+    "required": "Required",
+    "optional": "Optional",
+    "success": "Success",
+    "error": "Error occurred",
+    "warning": "Warning",
+    "view": "View",
+    "select": "Select",
+    "createdAt": "Created"
+  },
+  "header": {
+    "services": "Services",
+    "blog": "Blog",
+    "about": "About",
+    "platform": "Portal",
+    "signUp": "Sign Up",
+    "login": "Login",
+    "projects": "Projects",
+    "certificates": "Certificates"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "certificates": "Certificates",
+    "invoices": "Invoices",
+    "settings": "Settings",
+    "users": "Users",
+    "logout": "Logout",
+    "help": "Help"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "forgotPassword": "Forgot password?",
+    "loginButton": "Sign In",
+    "invalidCredentials": "Invalid credentials",
+    "welcomeBack": "Welcome back",
+    "loginDescription": "Sign in to your account",
+    "signUp": "Sign Up",
+    "createAccount": "Create Account",
+    "signUpDescription": "Sign up to get started",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "orContinueWith": "Or continue with",
+    "confirm": "Confirm",
+    "twoFactorCode": "Two-Factor Code",
+    "twoFactorDescription": "Enter the code sent to your email",
+    "resetPassword": "Reset Password",
+    "resetDescription": "Enter your email to receive reset instructions",
+    "newPassword": "New Password",
+    "newPasswordDescription": "Enter your new password",
+    "confirmPassword": "Confirm Password",
+    "sendResetLink": "Send Reset Link",
+    "backToLogin": "Back to login",
+    "confirmEmail": "Confirm Your Email",
+    "confirmEmailDescription": "Confirming your email address...",
+    "emailVerified": "Email verified! You can now login.",
+    "verifyingEmail": "Verifying your email...",
+    "enterEmail": "Enter your email",
+    "enterPassword": "Enter your password",
+    "enterName": "Enter your name",
+    "providers": {
+      "google": "Google",
+      "facebook": "Facebook"
+    },
+    "errors": {
+      "emailInUseProvider": "Email already in use with different provider!",
+      "somethingWrong": "Something went wrong!",
+      "emailNotVerified": "Please verify your email first",
+      "invalidCode": "Invalid code",
+      "expiredCode": "Code has expired",
+      "userNotFound": "User not found",
+      "invalidToken": "Invalid token",
+      "expiredToken": "Token has expired",
+      "passwordRequired": "Password is required"
+    },
+    "success": {
+      "emailSent": "Email sent! Check your inbox.",
+      "passwordReset": "Password updated successfully!",
+      "accountCreated": "Account created! Please check your email.",
+      "confirmationSent": "Confirmation email sent!"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalProjects": "Total Projects",
+    "inProgress": "In Progress",
+    "pendingInspection": "Pending Inspection",
+    "unpaidInvoices": "Unpaid Invoices",
+    "recentProjects": "Recent Projects",
+    "quickActions": "Quick Actions",
+    "newProject": "New Project",
+    "newCertificate": "New Certificate",
+    "newInvoice": "New Invoice",
+    "trendingUp": "Trending up this month",
+    "trendingDown": "Down this period"
+  },
+  "projects": {
+    "title": "Projects",
+    "newProject": "New Project",
+    "editProject": "Edit Project",
+    "projectDetails": "Project Details",
+    "projectNumber": "Project Number",
+    "type": "Type",
+    "status": "Status",
+    "description": "Description",
+    "area": "Area (sqm)",
+    "floors": "Floors",
+    "facilityName": "Facility Name",
+    "facilityType": "Facility Type",
+    "client": "Client",
+    "contactPerson": "Contact Person",
+    "startDate": "Start Date",
+    "completionDate": "Completion Date",
+    "types": {
+      "FIRE_ALARM": "Fire Alarm",
+      "SUPPRESSION": "Suppression System",
+      "SPRINKLER": "Sprinkler System",
+      "MAINTENANCE": "Maintenance",
+      "CONSULTATION": "Consultation"
+    },
+    "statuses": {
+      "PENDING": "Pending",
+      "IN_PROGRESS": "In Progress",
+      "INSTALLATION": "Installation",
+      "TESTING": "Testing",
+      "COMPLETED": "Completed"
+    },
+    "createSuccess": "Project created successfully",
+    "updateSuccess": "Project updated successfully",
+    "deleteSuccess": "Project deleted successfully"
+  },
+  "certificates": {
+    "title": "Certificates",
+    "newCertificate": "New Certificate",
+    "editCertificate": "Edit Certificate",
+    "certificateDetails": "Certificate Details",
+    "certificateNumber": "Certificate Number",
+    "systemType": "System Type",
+    "issueDate": "Issue Date",
+    "expiryDate": "Expiry Date",
+    "issuedBy": "Issued By",
+    "documents": "Documents",
+    "uploadDocument": "Upload Document",
+    "approve": "Approve",
+    "reject": "Reject",
+    "submit": "Submit",
+    "statuses": {
+      "DRAFT": "Draft",
+      "SUBMITTED": "Submitted",
+      "UNDER_REVIEW": "Under Review",
+      "APPROVED": "Approved",
+      "REJECTED": "Rejected"
+    },
+    "documentTypes": {
+      "CIVIL_DEFENSE_CERTIFICATE": "Civil Defense Certificate",
+      "SYSTEM_DESIGN": "System Design",
+      "INSPECTION_REPORT": "Inspection Report",
+      "TEST_REPORT": "Test Report",
+      "MAINTENANCE_CONTRACT": "Maintenance Contract",
+      "OTHER": "Other"
+    }
+  },
+  "invoices": {
+    "title": "Invoices",
+    "newInvoice": "New Invoice",
+    "editInvoice": "Edit Invoice",
+    "invoiceDetails": "Invoice Details",
+    "details": "Invoice Details",
+    "invoiceNumber": "Invoice Number",
+    "subtotal": "Subtotal",
+    "tax": "Tax",
+    "total": "Total",
+    "dueDate": "Due Date",
+    "paidAt": "Paid At",
+    "lineItems": "Line Items",
+    "addItem": "Add Item",
+    "itemDescription": "Item Description",
+    "unitPrice": "Unit Price",
+    "notes": "Notes",
+    "downloadPdf": "Download PDF",
+    "markAsPaid": "Mark as Paid",
+    "markAsSent": "Mark as Sent",
+    "statuses": {
+      "DRAFT": "Draft",
+      "SENT": "Sent",
+      "PAID": "Paid",
+      "OVERDUE": "Overdue",
+      "CANCELLED": "Cancelled"
+    },
+    "currencies": {
+      "SDG": "Sudanese Pound",
+      "USD": "US Dollar",
+      "SAR": "Saudi Riyal"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile",
+    "language": "Language",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password"
+  },
+  "users": {
+    "title": "Users",
+    "newUser": "New User",
+    "editUser": "Edit User",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "roles": {
+      "ADMIN": "Admin",
+      "MANAGER": "Manager",
+      "CLERK": "Clerk",
+      "VIEWER": "Viewer"
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "minLength": "Must be at least {min} characters",
+    "maxLength": "Must not exceed {max} characters",
+    "invalidNumber": "Must be a valid number",
+    "positiveNumber": "Must be a positive number"
+  },
+  "about": {
+    "sections": {
+      "who": {
+        "subtitle": "W h o   W e   A r e",
+        "title": "Who We Are",
+        "description": "Established over 20 years ago, USUS ALSALAMAH was founded with the mission of protecting lives and properties across Saudi Arabia. We are a Civil Defense certified contractor specializing in comprehensive fire protection systems for commercial, industrial, and residential facilities. Our commitment to excellence and safety has made us a trusted partner for businesses throughout the Kingdom."
+      },
+      "why": {
+        "subtitle": "W h y   U s",
+        "title": "Why Us",
+        "description": "We believe that fire safety is not just a requirement—it's a responsibility. With our dedication to providing cutting-edge protection systems and professional service, we ensure your facilities meet the highest safety standards. Our Civil Defense certification, experienced team, and use of quality equipment from leading manufacturers make us the trusted choice for fire protection in Saudi Arabia."
+      },
+      "mission": {
+        "subtitle": "O u r   M i s s i o n",
+        "title": "Our Vision and Mission",
+        "description": "To be the leading fire protection company in Saudi Arabia, providing innovative and reliable safety solutions that protect lives and assets. We strive to deliver excellence in every project, from initial consultation through installation and ongoing maintenance, ensuring complete peace of mind for our clients."
+      }
+    },
+    "goals": [
+      {
+        "title": "Safety First",
+        "description": "Protecting lives and properties through professional installation and maintenance of fire protection systems that meet the highest standards."
+      },
+      {
+        "title": "Quality Excellence",
+        "description": "Delivering reliable, high-quality fire safety solutions using equipment from leading manufacturers and certified installation practices."
+      },
+      {
+        "title": "Customer Trust",
+        "description": "Building lasting relationships through transparent service, expert guidance, and responsive 24/7 support for all our clients."
+      }
+    ],
+    "boardOfDirectors": {
+      "subtitle": "O u r   L e a d e r s h i p",
+      "title": "Our Team",
+      "description": "Meet our dedicated team members who lead USUS ALSALAMAH with their expertise and commitment to fire safety excellence.",
+      "members": [
+        { "name": "Ahmed Al-Saud", "position": "CEO" },
+        { "name": "Khalid Al-Rashid", "position": "Operations Director" },
+        { "name": "Mohammed Al-Fahad", "position": "Technical Director" },
+        { "name": "Omar Al-Hassan", "position": "Finance Director" },
+        { "name": "Faisal Al-Qahtani", "position": "Projects Manager" },
+        { "name": "Youssef Al-Ahmad", "position": "Safety Engineer" },
+        { "name": "Ibrahim Al-Malik", "position": "Quality Manager" },
+        { "name": "Sultan Al-Otaibi", "position": "Service Manager" }
+      ]
+    }
+  },
+  "marketing": {
+    "hero": {
+      "badge": "FIRE PROTECTION SERVICES",
+      "titleLine1": "Complete Fire",
+      "titleLine2": "Protection",
+      "titleMobileLine1": "Complete",
+      "titleMobileLine2": "Fire",
+      "titleMobileLine3": "Protection",
+      "subtitle": "USUS ALSALAMAH provides cutting-edge firefighting and protection systems for commercial, industrial, and residential facilities across Saudi Arabia. Certified by Civil Defense with over 15 years of excellence.",
+      "cta": "Get Free Consultation",
+      "trackPlaceholder": "Enter project number",
+      "trackButton": "Track"
+    },
+    "partners": {
+      "title": "Trusted by leading companies across Saudi Arabia"
+    },
+    "testimonial": {
+      "quote": "USUS ALSALAMAH transformed our facility's fire safety. Their professional installation and ongoing support give us complete peace of mind.",
+      "author": "Mohammed Al-Rashid",
+      "role": "Facilities Manager, Industrial Complex"
+    },
+    "solutions": {
+      "badge": "OUR SOLUTIONS",
+      "title": "Fire Protection Solutions That Keep You Safe",
+      "subtitle": "Comprehensive fire safety systems and services designed to protect your facilities.",
+      "items": {
+        "realTime": {
+          "title": "24/7 Monitoring",
+          "description": "Round-the-clock fire detection and monitoring with instant alert systems."
+        },
+        "analytics": {
+          "title": "Risk Assessment",
+          "description": "Professional fire risk analysis and safety audits for your facility."
+        },
+        "automated": {
+          "title": "Automated Alerts",
+          "description": "Stay protected with instant notifications and emergency response activation."
+        },
+        "multiCarrier": {
+          "title": "Civil Defense Certified",
+          "description": "All installations meet Saudi Civil Defense standards and regulations."
+        },
+        "customs": {
+          "title": "Code Compliance",
+          "description": "Expert guidance on NFPA, SASO, and local fire safety codes."
+        },
+        "warehouse": {
+          "title": "Annual Maintenance",
+          "description": "Scheduled inspections and maintenance to ensure system reliability."
+        }
+      }
+    },
+    "allInOne": {
+      "badge": "COMPLETE SOLUTION",
+      "title": "All-in-One Fire Protection System",
+      "subtitle": "Experience comprehensive fire safety management with our integrated platform that handles everything from system design to ongoing maintenance.",
+      "features": {
+        "documentation": {
+          "title": "Complete Documentation",
+          "description": "Digital certificates and compliance documentation with secure cloud storage and quick retrieval"
+        },
+        "tracking": {
+          "title": "Project Tracking",
+          "description": "Monitor installation progress with live updates and automated notifications"
+        },
+        "invoicing": {
+          "title": "Flexible Invoicing",
+          "description": "Professional invoicing with automated calculations and seamless payment processing"
+        },
+        "access": {
+          "title": "Team Access Control",
+          "description": "Role-based permissions for secure team collaboration and project management"
+        }
+      },
+      "tags": {
+        "control": "Control",
+        "ops": "Safety",
+        "cost": "Cost",
+        "efficiency": "Efficiency",
+        "speed": "Speed",
+        "accuracy": "Quality"
+      }
+    },
+    "insights": {
+      "badge": "BLOG",
+      "title": "Latest Fire Safety Insights",
+      "viewAll": "See more",
+      "articles": {
+        "article1": {
+          "category": "News",
+          "title": "New Civil Defense Regulations for 2025",
+          "description": "Updated fire safety codes and requirements for commercial buildings across Saudi Arabia.",
+          "date": "July 22, 2025"
+        },
+        "article2": {
+          "category": "Guide",
+          "title": "Choosing the Right Fire Alarm System",
+          "description": "A comprehensive guide to selecting addressable vs conventional fire detection systems for your facility.",
+          "date": "July 20, 2025"
+        },
+        "article3": {
+          "category": "Safety",
+          "title": "Fire Prevention Best Practices",
+          "description": "Essential fire safety tips and maintenance schedules to protect your commercial or industrial property.",
+          "date": "July 18, 2025"
+        }
+      }
+    },
+    "services": {
+      "badge": "OUR SERVICES",
+      "title": "Fire Protection Solutions That Keep You Safe",
+      "subtitle": "Comprehensive fire safety systems designed, installed, and maintained to the highest standards.",
+      "items": {
+        "sea": {
+          "type": "ALARM",
+          "tag1": "24/7 Monitoring",
+          "tag2": "Civil Defense Certified",
+          "title": "Fire Alarm Systems",
+          "description": "Advanced addressable and conventional fire detection systems with integrated monitoring."
+        },
+        "air": {
+          "type": "SUPPRESSION",
+          "tag1": "FM-200 & CO2",
+          "tag2": "Automatic",
+          "title": "Suppression Systems",
+          "description": "Clean agent, CO2, and foam suppression systems for critical facility protection."
+        },
+        "ground": {
+          "type": "SPRINKLER",
+          "tag1": "NFPA Compliant",
+          "tag2": "All Building Types",
+          "title": "Sprinkler Systems",
+          "description": "Wet, dry, and pre-action sprinkler systems with professional hydraulic calculations."
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "titleMobile": "FAQ",
+      "subtitle": "Your guide to our fire protection services.",
+      "items": {
+        "q1": {
+          "question": "What fire alarm systems do you install?",
+          "answer": "We install both addressable and conventional fire alarm systems from leading manufacturers. Our systems include smoke detectors, heat detectors, manual call points, and integrated control panels with 24/7 monitoring capabilities."
+        },
+        "q2": {
+          "question": "Do you provide Civil Defense certification?",
+          "answer": "Yes, all our installations are fully compliant with Saudi Civil Defense regulations. We handle the entire certification process, from design approval to final inspection and certificate issuance."
+        },
+        "q3": {
+          "question": "What maintenance services do you offer?",
+          "answer": "We offer comprehensive maintenance contracts including quarterly inspections, annual testing, certified reports, and 24/7 emergency support. All maintenance is performed using original spare parts."
+        },
+        "q4": {
+          "question": "Do you serve residential properties?",
+          "answer": "Yes, we serve commercial, industrial, and residential properties across Saudi Arabia. Our team can design and install fire protection systems suitable for any building type and size."
+        },
+        "q5": {
+          "question": "How quickly can you respond to emergencies?",
+          "answer": "We offer 24/7 emergency service with rapid response times. For maintenance contract clients, we guarantee priority response within hours for critical issues."
+        }
+      }
+    },
+    "footer": {
+      "description": "Your trusted partner for fire protection and safety systems in Saudi Arabia. Certified, reliable, and professional.",
+      "quickLinks": "Quick Links",
+      "services": "Services",
+      "contact": "Contact",
+      "company": "Company",
+      "support": "Support",
+      "copyright": "All rights reserved.",
+      "newsletter": {
+        "title": "Subscribe to Newsletter",
+        "description": "Stay updated with the latest fire safety news and tips.",
+        "placeholder": "Enter your email",
+        "button": "Subscribe"
+      },
+      "links": {
+        "home": "Home",
+        "features": "Features",
+        "tracking": "Projects",
+        "solutions": "Solutions",
+        "pricing": "Pricing",
+        "import": "Fire Alarms",
+        "export": "Suppression Systems",
+        "warehouse": "Sprinklers",
+        "transport": "Maintenance",
+        "about": "About",
+        "careers": "Careers",
+        "blog": "Blog",
+        "helpCenter": "Help Center",
+        "documentation": "Documentation",
+        "status": "Status"
+      },
+      "contactInfo": {
+        "address": "Riyadh, Kingdom of Saudi Arabia",
+        "phone": "+966 50 442 7517",
+        "email": "info@ususalsalamah.com"
+      }
+    },
+    "gas": {
+      "subtitle": "Civil Defense Certified Contractor",
+      "title": "Complete Fire Protection",
+      "description": "Experience comprehensive fire safety with our integrated protection systems. From design to maintenance, we ensure your facilities are protected to the highest standards.",
+      "features": {
+        "global": {
+          "title": "Kingdom-Wide Service",
+          "description": "Comprehensive coverage across Saudi Arabia with rapid response"
+        },
+        "smart": {
+          "title": "Smart Detection",
+          "description": "Advanced addressable systems with real-time monitoring and alerts"
+        },
+        "fast": {
+          "title": "Fast Certification",
+          "description": "Streamlined Civil Defense approval process for quick compliance"
+        }
+      },
+      "stats": {
+        "containers": "500+",
+        "containersLabel": "Projects Completed",
+        "delivery": "20+",
+        "deliveryLabel": "Years Experience"
+      },
+      "cta": "Explore Our Services"
+    }
+  },
+  "chatbot": {
+    "openChat": "Open chat",
+    "closeChat": "Close chat",
+    "placeholder": "Type your message...",
+    "welcomeMessage": "Hello! How can I help you with your fire safety needs?",
+    "noMessages": "No messages yet. Start a conversation!",
+    "errorMessage": "Sorry, something went wrong. Please try again.",
+    "typing": "Typing...",
+    "send": "Send",
+    "sendMessage": "Send message",
+    "voiceInput": "Voice input",
+    "retry": "Retry",
+    "chooseQuestion": "Choose a question or type your message",
+    "speechNotSupported": "Speech recognition is not supported in your browser.",
+    "speechError": "Speech recognition error. Please try again.",
+    "quickActions": {
+      "track": "Project",
+      "trackQuestion": "What is my project status?",
+      "rates": "Services",
+      "ratesQuestion": "What fire protection services do you offer?",
+      "delivery": "Consultation",
+      "deliveryQuestion": "How can I get a free consultation?",
+      "contact": "Contact",
+      "contactQuestion": "How can I contact you?"
+    }
+  },
+  "table": {
+    "of": "of",
+    "rowsSelected": "row(s) selected"
+  },
+  "tracking": {
+    "title": "Track Project",
+    "publicTitle": "Track Your Project",
+    "enterNumber": "Enter project number",
+    "trackButton": "Track",
+    "notFound": "Project not found",
+    "invalidNumber": "Invalid project number",
+    "currentStatus": "Current Status",
+    "estimatedDelivery": "Estimated Completion",
+    "lastUpdated": "Last Updated",
+    "progress": "Progress",
+    "projectInfo": "Project Information",
+    "trackingNumber": "Project Number",
+    "facilityName": "Facility Name",
+    "projectType": "Project Type",
+    "client": "Client",
+    "copyLink": "Copy Project Link",
+    "linkCopied": "Link copied!",
+    "stages": {
+      "CONSULTATION": "Initial Consultation",
+      "SITE_SURVEY": "Site Survey",
+      "DESIGN": "System Design",
+      "CIVIL_DEFENSE_APPROVAL": "Civil Defense Approval",
+      "MATERIAL_PROCUREMENT": "Material Procurement",
+      "INSTALLATION": "Installation",
+      "TESTING": "Testing & Commissioning",
+      "INSPECTION": "Final Inspection",
+      "CERTIFICATION": "Certification",
+      "HANDOVER": "Project Handover",
+      "MAINTENANCE": "Under Maintenance"
+    },
+    "stageDescriptions": {
+      "CONSULTATION": "Initial consultation and requirements gathering",
+      "SITE_SURVEY": "On-site survey and measurements",
+      "DESIGN": "System design and engineering calculations",
+      "CIVIL_DEFENSE_APPROVAL": "Design approval from Civil Defense",
+      "MATERIAL_PROCUREMENT": "Procurement of equipment and materials",
+      "INSTALLATION": "On-site installation in progress",
+      "TESTING": "System testing and commissioning",
+      "INSPECTION": "Final inspection by Civil Defense",
+      "CERTIFICATION": "Certificate issuance",
+      "HANDOVER": "Project handover to client",
+      "MAINTENANCE": "Active maintenance contract"
+    },
+    "statuses": {
+      "PENDING": "Pending",
+      "IN_PROGRESS": "In Progress",
+      "COMPLETED": "Completed",
+      "SKIPPED": "Skipped"
+    },
+    "actions": {
+      "advanceStage": "Advance to Next Stage",
+      "updateStage": "Update Stage",
+      "updateEta": "Update ETA",
+      "addNote": "Add Note",
+      "markComplete": "Mark Complete",
+      "skip": "Skip Stage",
+      "initializeTracking": "Initialize Project",
+      "generateNumber": "Generate Project Number"
+    },
+    "eta": "ETA",
+    "completedAt": "Completed",
+    "startedAt": "Started",
+    "notes": "Notes",
+    "noNotes": "No notes added",
+    "addNotes": "Add notes for this stage...",
+    "stageOf": "Stage {current} of {total}"
+  }
+}
