@@ -3,19 +3,13 @@ import { i18n, type Locale } from '@/components/internationalization/config'
 import { apiAuthPrefix, authRoutes, publicRoutes, publicRoutePrefixes, DEFAULT_LOGIN_REDIRECT } from '@/routes'
 
 function getLocale(request: NextRequest): string {
+  // Check if user has explicitly chosen a locale
   const cookieLocale = request.cookies.get('NEXT_LOCALE')?.value
   if (cookieLocale && i18n.locales.includes(cookieLocale as Locale)) {
     return cookieLocale
   }
 
-  // Simple Accept-Language parsing for Edge runtime
-  const acceptLanguage = request.headers.get('accept-language') ?? ''
-  const preferredLocale = acceptLanguage.split(',')[0]?.split('-')[0]?.toLowerCase()
-
-  if (preferredLocale && i18n.locales.includes(preferredLocale as Locale)) {
-    return preferredLocale
-  }
-
+  // Always default to Arabic for new visitors
   return i18n.defaultLocale
 }
 
