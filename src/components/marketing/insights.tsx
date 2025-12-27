@@ -16,18 +16,18 @@ export function Insights({ dictionary, lang }: InsightsProps) {
   const articles = [
     {
       ...insights.articles.article1,
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop',
-      slug: 'fire-safety-regulations-2025',
+      image: '/img9.jpg',
+      slug: 'logistics-regulations-2025',
     },
     {
       ...insights.articles.article2,
-      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop',
-      slug: 'fire-alarm-maintenance',
+      image: '/img8.jpg',
+      slug: 'shipment-tracking',
     },
     {
       ...insights.articles.article3,
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2070&auto=format&fit=crop',
-      slug: 'fire-protection-technology',
+      image: '/img12.jpg',
+      slug: 'cargo-technology',
     },
   ]
 

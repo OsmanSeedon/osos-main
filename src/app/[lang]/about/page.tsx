@@ -39,8 +39,8 @@ export default async function AboutPage({
                 </div>
                 <div className="mt-8">
                   <Image
-                    src="https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=2070&auto=format&fit=crop"
-                    alt="Fire safety professionals"
+                    src="/img5.webp"
+                    alt="Logistics professionals"
                     width={500}
                     height={250}
                     className="w-full h-[600px] rounded-lg object-cover"
@@ -63,8 +63,8 @@ export default async function AboutPage({
                 </div>
                 <div className="mt-8">
                   <Image
-                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2070&auto=format&fit=crop"
-                    alt="Fire alarm systems"
+                    src="/img12.jpg"
+                    alt="Shipping containers"
                     width={500}
                     height={250}
                     className="w-full h-[600px] rounded-lg object-cover"
@@ -127,14 +127,14 @@ export default async function AboutPage({
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                 {about.boardOfDirectors.members.map((member, index) => {
                   const images = [
-                    'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=400&auto=format&fit=crop',
-                    'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop',
-                    'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=400&auto=format&fit=crop',
-                    'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=400&auto=format&fit=crop',
-                    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop',
-                    'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=400&auto=format&fit=crop',
-                    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format&fit=crop',
-                    'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400&auto=format&fit=crop',
+                    '/img1.jpg',
+                    '/img2.jpg',
+                    '/img3.jpg',
+                    '/img4.jpg',
+                    '/img6.jpg',
+                    '/img7.jpg',
+                    '/img8.jpg',
+                    '/img9.jpg',
                   ]
                   return (
                     <div key={index} className="text-center space-y-4">

@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Image from 'next/image'
 import { Search } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Dictionary } from '@/components/internationalization/types'
@@ -31,17 +32,16 @@ export function Hero({ dictionary }: HeroProps) {
 
   return (
     <section className="relative h-screen">
-      {/* Video Background */}
+      {/* Image Background */}
       <div className="absolute inset-0">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover"
-        >
-          <source src="/hero.mp4" type="video/mp4" />
-        </video>
+        <Image
+          src="/img9.jpg"
+          alt="Fire protection services"
+          fill
+          priority
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-black/40" />
       </div>
 
       {/* Content */}

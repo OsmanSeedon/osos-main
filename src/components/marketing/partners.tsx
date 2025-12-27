@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
 const sponsors = [
+  { name: 'Al Othaim Mall', src: '/marketing/sponser/othaim.png' },
+  { name: 'Movenpick Hotels', src: '/marketing/sponser/movenpick.png' },
   { name: 'Faisal', src: '/marketing/sponser/faisal.png' },
   { name: 'WHO', src: '/marketing/sponser/who.svg' },
   { name: 'MTDT', src: '/marketing/sponser/mtdt.png' },

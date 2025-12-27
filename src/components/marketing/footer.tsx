@@ -65,9 +65,9 @@ export function Footer({ dictionary, lang }: FooterProps) {
               <OptimizedImage
                 src="/logo.png"
                 alt={dictionary.common.appName}
-                width={160}
-                height={50}
-                className="h-12 w-auto invert"
+                width={350}
+                height={130}
+                className="h-32 w-auto"
               />
             </Link>
             <p className="text-base text-white/70 leading-relaxed max-w-[280px]">
@@ -146,7 +146,7 @@ export function Footer({ dictionary, lang }: FooterProps) {
               />
               <button
                 type="submit"
-                className="absolute end-1.5 bg-white hover:bg-white/90 text-black font-medium h-9 px-5 rounded-full text-sm transition-colors"
+                className="absolute end-1.5 bg-primary hover:bg-primary/90 text-primary-foreground font-medium h-9 px-5 rounded-full text-sm transition-colors"
               >
                 {footer.newsletter.button}
               </button>

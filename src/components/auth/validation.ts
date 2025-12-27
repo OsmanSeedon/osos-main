@@ -1,5 +1,12 @@
 import * as z from "zod";
-import { UserRole } from "@prisma/client";
+
+// Define UserRole locally to avoid importing @prisma/client in client components
+const UserRole = {
+  ADMIN: "ADMIN",
+  MANAGER: "MANAGER",
+  CLERK: "CLERK",
+  VIEWER: "VIEWER",
+} as const;
 
 export const SettingsSchema = z.object({
   name: z.optional(z.string()),

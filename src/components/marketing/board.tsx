@@ -1,42 +1,49 @@
 'use client';
 
 import Image from 'next/image';
+import { Dictionary } from '@/components/internationalization/types';
+
+interface TeamPageProps {
+  dictionary: Dictionary;
+}
 
 const teamMembers = [
   {
     id: 1,
     name: "Mazin Abdout",
-    rank: "CEO",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+    rankKey: "ceo" as const,
+    image: "/img1.jpg"
   },
   {
     id: 2,
     name: "Sami Dirar",
-    rank: "COO",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
+    rankKey: "coo" as const,
+    image: "/img2.jpg"
   },
   {
     id: 3,
     name: "William Parker",
-    rank: "CTO",
-    image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
+    rankKey: "cto" as const,
+    image: "/img3.jpg"
   },
   {
     id: 4,
     name: "David Mitchell",
-    rank: "CFO",
-    image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3"
+    rankKey: "cfo" as const,
+    image: "/img4.jpg"
   }
 ];
 
-export function TeamPage() {
+export function TeamPage({ dictionary }: TeamPageProps) {
+  const { board } = dictionary.marketing;
+
   return (
     <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-foreground text-background">
       <div style={{ paddingInline: 'var(--container-padding)' }}>
         <div className="text-center mb-8 md:mb-12">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Board</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">{board.title}</h2>
           <p className="text-background/70">
-            Meet the experts behind our success.
+            {board.subtitle}
           </p>
         </div>
 
@@ -54,7 +61,7 @@ export function TeamPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-1 text-background">{member.rank}</h3>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-1 text-background">{board[member.rankKey]}</h3>
               <p className="text-sm md:text-base text-background/70">{member.name}</p>
             </div>
           ))}

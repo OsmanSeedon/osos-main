@@ -36,9 +36,9 @@ export function MainNav({ dictionary, className }: MainNavProps) {
         <Image
           src="/logo.png"
           alt={dictionary.common.appName}
-          width={32}
-          height={32}
-          className="w-8 h-8"
+          width={56}
+          height={56}
+          className="w-14 h-14"
         />
         <span className="font-bold text-xl text-foreground">
           {dictionary.common.appName}

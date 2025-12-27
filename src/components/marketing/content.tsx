@@ -6,10 +6,9 @@ import { Partners } from './partners'
 import { Services } from './services'
 import { AllInOne } from './all-in-one'
 import { NumberSection } from './number'
-import { TeamPage } from './board'
+import { ProcessSection } from './process'
 import { Insights } from './insights'
 import { Faq } from './faq'
-import ReadyToBuildSection from './ready-to-build'
 import { Footer } from './footer'
 import { Chatbot } from '@/components/chatbot'
 
@@ -27,11 +26,10 @@ export async function MarketingContent({ dictionary, lang }: MarketingContentPro
         <Partners />
         <Services dictionary={dictionary} />
         <AllInOne dictionary={dictionary} />
-        <NumberSection />
-        <TeamPage />
+        <NumberSection dictionary={dictionary} />
+        <ProcessSection dictionary={dictionary} />
         <Insights dictionary={dictionary} lang={lang} />
         <Faq dictionary={dictionary} lang={lang} />
-        <ReadyToBuildSection dictionary={dictionary} />
       </main>
       <Footer dictionary={dictionary} lang={lang} />
       <Chatbot lang={lang as Locale} />

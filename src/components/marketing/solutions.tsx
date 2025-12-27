@@ -16,43 +16,43 @@ export function Solutions({ dictionary }: SolutionsProps) {
       icon: MapPin,
       title: solutions.items.realTime.title,
       description: solutions.items.realTime.description,
-      color: 'text-red-500',
-      bgColor: 'bg-red-500/10',
+      color: 'text-primary',
+      bgColor: 'bg-primary/10',
     },
     {
       icon: BarChart3,
       title: solutions.items.analytics.title,
       description: solutions.items.analytics.description,
-      color: 'text-purple-500',
-      bgColor: 'bg-purple-500/10',
+      color: 'text-primary',
+      bgColor: 'bg-primary/10',
     },
     {
       icon: Bell,
       title: solutions.items.automated.title,
       description: solutions.items.automated.description,
-      color: 'text-amber-500',
-      bgColor: 'bg-amber-500/10',
+      color: 'text-primary',
+      bgColor: 'bg-primary/10',
     },
     {
       icon: Ship,
       title: solutions.items.multiCarrier.title,
       description: solutions.items.multiCarrier.description,
-      color: 'text-teal-500',
-      bgColor: 'bg-teal-500/10',
+      color: 'text-primary',
+      bgColor: 'bg-primary/10',
     },
     {
       icon: FileCheck,
       title: solutions.items.customs.title,
       description: solutions.items.customs.description,
-      color: 'text-emerald-500',
-      bgColor: 'bg-emerald-500/10',
+      color: 'text-primary',
+      bgColor: 'bg-primary/10',
     },
     {
       icon: Warehouse,
       title: solutions.items.warehouse.title,
       description: solutions.items.warehouse.description,
-      color: 'text-rose-500',
-      bgColor: 'bg-rose-500/10',
+      color: 'text-primary',
+      bgColor: 'bg-primary/10',
     },
   ]
 
@@ -99,8 +99,8 @@ export function Solutions({ dictionary }: SolutionsProps) {
           <div className="grid grid-rows-2 gap-4 h-[400px] lg:h-[500px]">
             <div className="relative rounded-2xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2070&auto=format&fit=crop"
-                alt="Fire alarm control panel"
+                src="/img13.jpg"
+                alt="Logistics operations"
                 fill
                 className="object-cover"
               />
@@ -108,16 +108,16 @@ export function Solutions({ dictionary }: SolutionsProps) {
             <div className="grid grid-cols-2 gap-4">
               <div className="relative rounded-2xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1586953208448-b95a79798f07?q=80&w=2070&auto=format&fit=crop"
-                  alt="Fire extinguisher"
+                  src="/img10.jpg"
+                  alt="Shipping containers"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="relative rounded-2xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop"
-                  alt="Fire sprinkler system"
+                  src="/img6.jpg"
+                  alt="Cargo transport"
                   fill
                   className="object-cover"
                 />

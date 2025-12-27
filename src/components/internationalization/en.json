@@ -1,6 +1,6 @@
 {
   "common": {
-    "appName": "USUS ALSALAMAH",
+    "appName": "OSOS AlSalamah",
     "save": "Save",
     "cancel": "Cancel",
     "delete": "Delete",
@@ -253,7 +253,7 @@
       "who": {
         "subtitle": "W h o   W e   A r e",
         "title": "Who We Are",
-        "description": "Established over 20 years ago, USUS ALSALAMAH was founded with the mission of protecting lives and properties across Saudi Arabia. We are a Civil Defense certified contractor specializing in comprehensive fire protection systems for commercial, industrial, and residential facilities. Our commitment to excellence and safety has made us a trusted partner for businesses throughout the Kingdom."
+        "description": "Established over 20 years ago, OSOS AlSalamah was founded with the mission of protecting lives and properties across Saudi Arabia. We are a Civil Defense certified contractor specializing in comprehensive fire protection systems for commercial, industrial, and residential facilities. Our commitment to excellence and safety has made us a trusted partner for businesses throughout the Kingdom."
       },
       "why": {
         "subtitle": "W h y   U s",
@@ -283,7 +283,7 @@
     "boardOfDirectors": {
       "subtitle": "O u r   L e a d e r s h i p",
       "title": "Our Team",
-      "description": "Meet our dedicated team members who lead USUS ALSALAMAH with their expertise and commitment to fire safety excellence.",
+      "description": "Meet our dedicated team members who lead OSOS AlSalamah with their expertise and commitment to fire safety excellence.",
       "members": [
         { "name": "Ahmed Al-Saud", "position": "CEO" },
         { "name": "Khalid Al-Rashid", "position": "Operations Director" },
@@ -304,7 +304,7 @@
       "titleMobileLine1": "Complete",
       "titleMobileLine2": "Fire",
       "titleMobileLine3": "Protection",
-      "subtitle": "USUS ALSALAMAH provides cutting-edge firefighting and protection systems for commercial, industrial, and residential facilities across Saudi Arabia. Certified by Civil Defense with over 15 years of excellence.",
+      "subtitle": "OSOS AlSalamah provides cutting-edge firefighting and protection systems for commercial, industrial, and residential facilities across Saudi Arabia. Certified by Civil Defense with over 15 years of excellence.",
       "cta": "Get Free Consultation",
       "trackPlaceholder": "Enter project number",
       "trackButton": "Track"
@@ -313,7 +313,7 @@
       "title": "Trusted by leading companies across Saudi Arabia"
     },
     "testimonial": {
-      "quote": "USUS ALSALAMAH transformed our facility's fire safety. Their professional installation and ongoing support give us complete peace of mind.",
+      "quote": "OSOS AlSalamah transformed our facility's fire safety. Their professional installation and ongoing support give us complete peace of mind.",
       "author": "Mohammed Al-Rashid",
       "role": "Facilities Manager, Industrial Complex"
     },
@@ -495,6 +495,22 @@
         "phone": "+966 50 442 7517",
         "email": "info@ususalsalamah.com"
       }
+    },
+    "board": {
+      "title": "Board",
+      "subtitle": "Meet the experts behind our success.",
+      "ceo": "CEO",
+      "coo": "COO",
+      "cto": "CTO",
+      "cfo": "CFO"
+    },
+    "numbers": {
+      "company": "Company",
+      "inNumbers": "In numbers",
+      "projects": "PROJECT",
+      "experts": "EXPERT",
+      "awards": "AWARDS",
+      "satisfied": "SATISFIED"
     },
     "gas": {
       "subtitle": "Civil Defense Certified Contractor",

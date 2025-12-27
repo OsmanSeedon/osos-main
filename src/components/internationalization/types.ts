@@ -404,6 +404,22 @@ export interface Dictionary {
       }
       cta: string
     }
+    board: {
+      title: string
+      subtitle: string
+      ceo: string
+      coo: string
+      cto: string
+      cfo: string
+    }
+    numbers: {
+      company: string
+      inNumbers: string
+      projects: string
+      experts: string
+      awards: string
+      satisfied: string
+    }
   }
   chatbot: {
     openChat: string
