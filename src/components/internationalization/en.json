@@ -29,14 +29,80 @@
     "createdAt": "Created"
   },
   "header": {
-    "services": "Services",
-    "blog": "Blog",
     "about": "About",
-    "platform": "Portal",
     "signUp": "Sign Up",
     "login": "Login",
-    "projects": "Projects",
-    "certificates": "Certificates"
+    "protectionSystems": {
+      "title": "Protection Systems",
+      "items": {
+        "fireAlarm": {
+          "title": "Fire Alarm Systems",
+          "description": "Addressable and conventional fire detection"
+        },
+        "suppression": {
+          "title": "Suppression Systems",
+          "description": "FM-200, CO2, and foam for critical facilities"
+        },
+        "sprinkler": {
+          "title": "Sprinkler Systems",
+          "description": "Wet, dry, and pre-action sprinklers"
+        },
+        "maintenance": {
+          "title": "Maintenance",
+          "description": "Annual and quarterly maintenance contracts"
+        },
+        "civilDefense": {
+          "title": "Civil Defense Certificates",
+          "description": "Safety certificate issuance and renewal"
+        },
+        "consultation": {
+          "title": "Consultation",
+          "description": "Risk assessment and system design"
+        }
+      }
+    },
+    "knowledgeCenter": {
+      "title": "Knowledge Center",
+      "items": {
+        "articles": {
+          "title": "Articles",
+          "description": "Latest fire safety news"
+        },
+        "guides": {
+          "title": "Guides",
+          "description": "System selection guides"
+        },
+        "regulations": {
+          "title": "Regulations & Standards",
+          "description": "Civil Defense regulations and NFPA standards"
+        },
+        "faq": {
+          "title": "FAQ",
+          "description": "Answers to common questions"
+        }
+      }
+    },
+    "customerPortal": {
+      "title": "Customer Portal",
+      "items": {
+        "trackProject": {
+          "title": "Track Project",
+          "description": "Monitor your project status"
+        },
+        "certificates": {
+          "title": "Certificates",
+          "description": "View and download certificates"
+        },
+        "invoices": {
+          "title": "Invoices",
+          "description": "View invoices and payments"
+        },
+        "support": {
+          "title": "Technical Support",
+          "description": "24/7 support requests"
+        }
+      }
+    }
   },
   "navigation": {
     "dashboard": "Dashboard",
@@ -306,8 +372,75 @@
       "titleMobileLine3": "Protection",
       "subtitle": "OSOS AlSalamah provides cutting-edge firefighting and protection systems for commercial, industrial, and residential facilities across Saudi Arabia. Certified by Civil Defense with over 15 years of excellence.",
       "cta": "Get Free Consultation",
-      "trackPlaceholder": "Enter project number",
-      "trackButton": "Track"
+      "quoteButton": "Request a Quote"
+    },
+    "quoteRequest": {
+      "title": "Request a Quote",
+      "subtitle": "Fill out the form and we'll contact you within 24 hours",
+      "companyName": "Company / Facility Name",
+      "companyNamePlaceholder": "Enter company or facility name",
+      "contactName": "Contact Person",
+      "contactNamePlaceholder": "Enter contact person name",
+      "email": "Email",
+      "emailPlaceholder": "example@company.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "05xxxxxxxx",
+      "city": "City",
+      "cityPlaceholder": "Select city",
+      "facilityType": "Facility Type",
+      "facilityTypePlaceholder": "Select facility type",
+      "area": "Approximate Area (sqm)",
+      "areaPlaceholder": "Enter area in square meters",
+      "serviceType": "Service Required",
+      "serviceTypePlaceholder": "Select service type",
+      "message": "Additional Details",
+      "messagePlaceholder": "Tell us more about your needs...",
+      "submit": "Submit Request",
+      "submitting": "Submitting...",
+      "success": "Your request has been submitted! We'll contact you soon.",
+      "error": "An error occurred. Please try again.",
+      "cities": {
+        "riyadh": "Riyadh",
+        "jeddah": "Jeddah",
+        "makkah": "Makkah",
+        "madinah": "Madinah",
+        "dammam": "Dammam",
+        "khobar": "Khobar",
+        "dhahran": "Dhahran",
+        "jubail": "Jubail",
+        "yanbu": "Yanbu",
+        "tabuk": "Tabuk",
+        "abha": "Abha",
+        "khamis": "Khamis Mushait",
+        "taif": "Taif",
+        "qassim": "Qassim",
+        "hail": "Hail",
+        "najran": "Najran",
+        "jazan": "Jazan",
+        "other": "Other"
+      },
+      "facilityTypes": {
+        "commercial": "Commercial",
+        "industrial": "Industrial",
+        "residential": "Residential",
+        "hospital": "Hospital / Healthcare",
+        "school": "School / University",
+        "hotel": "Hotel",
+        "warehouse": "Warehouse",
+        "mall": "Shopping Mall",
+        "office": "Office",
+        "restaurant": "Restaurant",
+        "other": "Other"
+      },
+      "serviceTypes": {
+        "fireAlarm": "Fire Alarm System",
+        "suppression": "Suppression System",
+        "sprinkler": "Sprinkler System",
+        "maintenance": "Maintenance Contract",
+        "consultation": "Consultation",
+        "civilDefense": "Civil Defense Certificate",
+        "complete": "Complete Solution"
+      }
     },
     "partners": {
       "title": "Trusted by leading companies across Saudi Arabia"
@@ -511,6 +644,10 @@
       "experts": "EXPERT",
       "awards": "AWARDS",
       "satisfied": "SATISFIED"
+    },
+    "clients": {
+      "title": "Our Clients",
+      "subtitle": "Trusted by leading organizations"
     },
     "gas": {
       "subtitle": "Civil Defense Certified Contractor",

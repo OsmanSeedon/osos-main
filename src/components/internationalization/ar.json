@@ -29,14 +29,80 @@
     "createdAt": "تاريخ الإنشاء"
   },
   "header": {
-    "services": "الخدمات",
-    "blog": "المدونة",
     "about": "عن الشركة",
-    "platform": "البوابة",
     "signUp": "تسجيل",
     "login": "دخول",
-    "projects": "المشاريع",
-    "certificates": "الشهادات"
+    "protectionSystems": {
+      "title": "أنظمة الحماية",
+      "items": {
+        "fireAlarm": {
+          "title": "أنظمة الإنذار",
+          "description": "أنظمة كشف الحريق المعنونة والتقليدية"
+        },
+        "suppression": {
+          "title": "أنظمة الإطفاء",
+          "description": "FM-200، CO2، والرغوة للمنشآت الحيوية"
+        },
+        "sprinkler": {
+          "title": "أنظمة الرشاشات",
+          "description": "رشاشات رطبة وجافة ومسبقة التشغيل"
+        },
+        "maintenance": {
+          "title": "الصيانة الدورية",
+          "description": "عقود صيانة سنوية وربع سنوية"
+        },
+        "civilDefense": {
+          "title": "شهادات الدفاع المدني",
+          "description": "إصدار وتجديد شهادات السلامة"
+        },
+        "consultation": {
+          "title": "الاستشارات",
+          "description": "تقييم المخاطر وتصميم الأنظمة"
+        }
+      }
+    },
+    "knowledgeCenter": {
+      "title": "مركز المعرفة",
+      "items": {
+        "articles": {
+          "title": "المقالات",
+          "description": "أحدث أخبار السلامة من الحريق"
+        },
+        "guides": {
+          "title": "الأدلة الإرشادية",
+          "description": "دليل اختيار الأنظمة المناسبة"
+        },
+        "regulations": {
+          "title": "اللوائح والمعايير",
+          "description": "لوائح الدفاع المدني ومعايير NFPA"
+        },
+        "faq": {
+          "title": "الأسئلة الشائعة",
+          "description": "إجابات على استفساراتكم"
+        }
+      }
+    },
+    "customerPortal": {
+      "title": "بوابة العملاء",
+      "items": {
+        "trackProject": {
+          "title": "تتبع المشروع",
+          "description": "متابعة حالة مشروعك"
+        },
+        "certificates": {
+          "title": "الشهادات",
+          "description": "عرض وتحميل الشهادات"
+        },
+        "invoices": {
+          "title": "الفواتير",
+          "description": "عرض الفواتير والمدفوعات"
+        },
+        "support": {
+          "title": "الدعم الفني",
+          "description": "طلب دعم على مدار الساعة"
+        }
+      }
+    }
   },
   "navigation": {
     "dashboard": "لوحة التحكم",
@@ -285,14 +351,38 @@
       "title": "فريقنا",
       "description": "تعرف على أعضاء فريقنا المتفانين الذين يقودون أسس السلامة بخبرتهم والتزامهم بالتميز في السلامة من الحريق.",
       "members": [
-        { "name": "أحمد آل سعود", "position": "الرئيس التنفيذي" },
-        { "name": "خالد الراشد", "position": "مدير العمليات" },
-        { "name": "محمد الفهد", "position": "المدير التقني" },
-        { "name": "عمر الحسن", "position": "المدير المالي" },
-        { "name": "فيصل القحطاني", "position": "مدير المشاريع" },
-        { "name": "يوسف الأحمد", "position": "مهندس السلامة" },
-        { "name": "إبراهيم المالك", "position": "مدير الجودة" },
-        { "name": "سلطان العتيبي", "position": "مدير الخدمات" }
+        {
+          "name": "أحمد آل سعود",
+          "position": "الرئيس التنفيذي"
+        },
+        {
+          "name": "خالد الراشد",
+          "position": "مدير العمليات"
+        },
+        {
+          "name": "محمد الفهد",
+          "position": "المدير التقني"
+        },
+        {
+          "name": "عمر الحسن",
+          "position": "المدير المالي"
+        },
+        {
+          "name": "فيصل القحطاني",
+          "position": "مدير المشاريع"
+        },
+        {
+          "name": "يوسف الأحمد",
+          "position": "مهندس السلامة"
+        },
+        {
+          "name": "إبراهيم المالك",
+          "position": "مدير الجودة"
+        },
+        {
+          "name": "سلطان العتيبي",
+          "position": "مدير الخدمات"
+        }
       ]
     }
   },
@@ -306,8 +396,75 @@
       "titleMobileLine3": "للحماية",
       "subtitle": "مؤسسة أسس السلامة تقدم أحدث أنظمة مكافحة الحرائق والحماية للمنشآت التجارية والصناعية والسكنية في جميع أنحاء المملكة العربية السعودية. ",
       "cta": "احصل على استشارة مجانية",
-      "trackPlaceholder": "أدخل رقم المشروع",
-      "trackButton": "تتبع"
+      "quoteButton": "طلب عرض سعر"
+    },
+    "quoteRequest": {
+      "title": "طلب عرض سعر",
+      "subtitle": "املأ النموذج وسنتواصل معك خلال 24 ساعة",
+      "companyName": "اسم الشركة / المنشأة",
+      "companyNamePlaceholder": "أدخل اسم الشركة أو المنشأة",
+      "contactName": "اسم المسؤول",
+      "contactNamePlaceholder": "أدخل اسم الشخص المسؤول",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "example@company.com",
+      "phone": "رقم الجوال",
+      "phonePlaceholder": "05xxxxxxxx",
+      "city": "المدينة",
+      "cityPlaceholder": "اختر المدينة",
+      "facilityType": "نوع المنشأة",
+      "facilityTypePlaceholder": "اختر نوع المنشأة",
+      "area": "المساحة التقريبية (م²)",
+      "areaPlaceholder": "أدخل المساحة بالمتر المربع",
+      "serviceType": "نوع الخدمة المطلوبة",
+      "serviceTypePlaceholder": "اختر نوع الخدمة",
+      "message": "تفاصيل إضافية",
+      "messagePlaceholder": "أخبرنا المزيد عن احتياجاتك...",
+      "submit": "إرسال الطلب",
+      "submitting": "جاري الإرسال...",
+      "success": "تم إرسال طلبك بنجاح! سنتواصل معك قريباً.",
+      "error": "حدث خطأ أثناء إرسال الطلب. يرجى المحاولة مرة أخرى.",
+      "cities": {
+        "riyadh": "الرياض",
+        "jeddah": "جدة",
+        "makkah": "مكة المكرمة",
+        "madinah": "المدينة المنورة",
+        "dammam": "الدمام",
+        "khobar": "الخبر",
+        "dhahran": "الظهران",
+        "jubail": "الجبيل",
+        "yanbu": "ينبع",
+        "tabuk": "تبوك",
+        "abha": "أبها",
+        "khamis": "خميس مشيط",
+        "taif": "الطائف",
+        "qassim": "القصيم",
+        "hail": "حائل",
+        "najran": "نجران",
+        "jazan": "جازان",
+        "other": "أخرى"
+      },
+      "facilityTypes": {
+        "commercial": "تجاري",
+        "industrial": "صناعي",
+        "residential": "سكني",
+        "hospital": "مستشفى / مرفق صحي",
+        "school": "مدرسة / جامعة",
+        "hotel": "فندق",
+        "warehouse": "مستودع",
+        "mall": "مركز تجاري",
+        "office": "مكتب",
+        "restaurant": "مطعم",
+        "other": "أخرى"
+      },
+      "serviceTypes": {
+        "fireAlarm": "نظام إنذار الحريق",
+        "suppression": "نظام الإطفاء",
+        "sprinkler": "نظام الرشاشات",
+        "maintenance": "عقد صيانة",
+        "consultation": "استشارة",
+        "civilDefense": "شهادة الدفاع المدني",
+        "complete": "حل متكامل"
+      }
     },
     "partners": {
       "title": "موثوق من قبل الشركات الرائدة في المملكة العربية السعودية"
@@ -537,6 +694,10 @@
         "deliveryLabel": "سنوات خبرة"
       },
       "cta": "استكشف خدماتنا"
+    },
+    "clients": {
+      "title": "عملاؤنا",
+      "subtitle": "موثوق من قبل المؤسسات الرائدة"
     }
   },
   "chatbot": {

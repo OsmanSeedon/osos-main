@@ -32,14 +32,38 @@ export interface Dictionary {
     createdAt: string
   }
   header: {
-    services: string
-    blog: string
     about: string
-    platform: string
     signUp: string
     login: string
-    projects: string
-    certificates: string
+    protectionSystems: {
+      title: string
+      items: {
+        fireAlarm: { title: string; description: string }
+        suppression: { title: string; description: string }
+        sprinkler: { title: string; description: string }
+        maintenance: { title: string; description: string }
+        civilDefense: { title: string; description: string }
+        consultation: { title: string; description: string }
+      }
+    }
+    knowledgeCenter: {
+      title: string
+      items: {
+        articles: { title: string; description: string }
+        guides: { title: string; description: string }
+        regulations: { title: string; description: string }
+        faq: { title: string; description: string }
+      }
+    }
+    customerPortal: {
+      title: string
+      items: {
+        trackProject: { title: string; description: string }
+        certificates: { title: string; description: string }
+        invoices: { title: string; description: string }
+        support: { title: string; description: string }
+      }
+    }
   }
   navigation: {
     dashboard: string
@@ -275,8 +299,36 @@ export interface Dictionary {
       titleMobileLine3: string
       subtitle: string
       cta: string
-      trackPlaceholder: string
-      trackButton: string
+      quoteButton: string
+    }
+    quoteRequest: {
+      title: string
+      subtitle: string
+      companyName: string
+      companyNamePlaceholder: string
+      contactName: string
+      contactNamePlaceholder: string
+      email: string
+      emailPlaceholder: string
+      phone: string
+      phonePlaceholder: string
+      city: string
+      cityPlaceholder: string
+      facilityType: string
+      facilityTypePlaceholder: string
+      area: string
+      areaPlaceholder: string
+      serviceType: string
+      serviceTypePlaceholder: string
+      message: string
+      messagePlaceholder: string
+      submit: string
+      submitting: string
+      success: string
+      error: string
+      cities: Record<string, string>
+      facilityTypes: Record<string, string>
+      serviceTypes: Record<string, string>
     }
     partners: {
       title: string
@@ -419,6 +471,10 @@ export interface Dictionary {
       experts: string
       awards: string
       satisfied: string
+    }
+    clients: {
+      title: string
+      subtitle: string
     }
   }
   chatbot: {

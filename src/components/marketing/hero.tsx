@@ -1,12 +1,11 @@
 'use client'
 
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
 import Image from 'next/image'
-import { Search } from 'lucide-react'
+import { FileText } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Dictionary } from '@/components/internationalization/types'
-import { useLocale } from '@/components/internationalization'
+import { QuoteRequestDialog } from './quote-request-dialog'
 
 interface HeroProps {
   dictionary: Dictionary
@@ -14,24 +13,10 @@ interface HeroProps {
 
 export function Hero({ dictionary }: HeroProps) {
   const { hero } = dictionary.marketing
-  const { locale } = useLocale()
-  const router = useRouter()
-  const [trackingNumber, setTrackingNumber] = useState('')
-
-  const handleTrack = () => {
-    if (trackingNumber.trim()) {
-      router.push(`/${locale}/track/${trackingNumber.trim()}`)
-    }
-  }
-
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      handleTrack()
-    }
-  }
+  const [isQuoteDialogOpen, setIsQuoteDialogOpen] = useState(false)
 
   return (
-    <section className="relative h-screen">
+    <section className="relative min-h-screen pb-64 lg:pb-80">
       {/* Image Background */}
       <div className="absolute inset-0">
         <Image
@@ -45,7 +30,7 @@ export function Hero({ dictionary }: HeroProps) {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center" style={{ paddingInline: 'var(--container-padding)' }}>
+      <div className="relative z-10 min-h-screen flex items-center pt-24 lg:pt-32" style={{ paddingInline: 'var(--container-padding)' }}>
         <div className="max-w-lg">
           {/* Badge */}
           <span className="inline-block text-xs font-semibold tracking-wider text-white/80 uppercase mb-4">
@@ -68,27 +53,24 @@ export function Hero({ dictionary }: HeroProps) {
             {hero.subtitle}
           </p>
 
-          {/* Track Input with Button */}
-          <div className="relative inline-flex items-center w-[70%] sm:w-auto">
-            <input
-              type="text"
-              value={trackingNumber}
-              onChange={(e) => setTrackingNumber(e.target.value)}
-              onKeyDown={handleKeyDown}
-              placeholder={hero.trackPlaceholder}
-              className="h-11 sm:h-12 w-full sm:w-80 ps-4 sm:ps-5 pe-24 sm:pe-28 rounded-full border border-white/30 bg-white/10 backdrop-blur-sm text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent text-sm sm:text-base"
-            />
-            <Button
-              size="sm"
-              onClick={handleTrack}
-              className="absolute end-1.5 bg-red-500 hover:bg-red-600 text-white font-medium h-8 sm:h-9 px-3 sm:px-5 gap-1 sm:gap-1.5 rounded-full text-xs sm:text-sm"
-            >
-              <Search className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-              <span className="hidden sm:inline">{hero.trackButton}</span>
-            </Button>
-          </div>
+          {/* Quote Request Button */}
+          <Button
+            size="lg"
+            onClick={() => setIsQuoteDialogOpen(true)}
+            className="bg-red-500 hover:bg-red-600 text-white font-semibold h-11 sm:h-12 px-6 sm:px-8 gap-2 rounded-full text-sm sm:text-base"
+          >
+            <FileText className="w-4 h-4 sm:w-5 sm:h-5" />
+            {hero.quoteButton}
+          </Button>
         </div>
       </div>
+
+      {/* Quote Request Dialog */}
+      <QuoteRequestDialog
+        open={isQuoteDialogOpen}
+        onOpenChange={setIsQuoteDialogOpen}
+        dictionary={dictionary}
+      />
     </section>
   )
 }

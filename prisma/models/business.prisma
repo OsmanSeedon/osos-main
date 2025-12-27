@@ -237,3 +237,48 @@ enum TrackingStageStatus {
   COMPLETED
   SKIPPED
 }
+
+// ============================================
+// Quote Request Models
+// ============================================
+
+model QuoteRequest {
+  id           String             @id @default(cuid())
+  requestNumber String            @unique
+  status       QuoteRequestStatus @default(NEW)
+
+  // Contact Information
+  companyName  String
+  contactName  String
+  email        String
+  phone        String
+  city         String
+
+  // Project Details
+  facilityType String
+  area         String?
+  serviceType  String
+  message      String?
+
+  // Internal Notes
+  internalNotes String?
+  assignedTo    String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([requestNumber])
+  @@index([status])
+  @@index([createdAt])
+  @@map("quote_requests")
+}
+
+enum QuoteRequestStatus {
+  NEW
+  CONTACTED
+  IN_PROGRESS
+  QUOTED
+  WON
+  LOST
+  CANCELLED
+}
